@@ -1,10 +1,10 @@
 package InterfaceNeeded;
 
-public interface GenericInterface {
+public interface GenericInterface<S, I> {
 
-    Integer doSomeOperations();
+    Integer doSomeOperations(S s);
 
-    String doReverseOperations();
+    String doReverseOperations(I i);
 
 
 
