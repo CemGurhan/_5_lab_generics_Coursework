@@ -1,2 +1,5 @@
-package Wildcards;public class Father {
+package Wildcards;
+
+public class Father extends Grandpa{
+
 }

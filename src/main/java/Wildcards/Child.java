@@ -1,2 +1,4 @@
-package Wildcards;public class Child {
+package Wildcards;
+
+public class Child extends Grandpa{
 }
