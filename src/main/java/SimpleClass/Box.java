@@ -12,5 +12,9 @@ public class Box<T> {
         return this.t;
     }
 
+    public void set(T t){
+        this.t = t;
+    }
+
 
 }
