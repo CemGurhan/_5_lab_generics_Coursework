@@ -4,7 +4,7 @@ public class Box<T> {
 
     private T t;
 
-    
+
 
     public T get(){
         return this.t;
