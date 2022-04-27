@@ -8,4 +8,20 @@ public class Pair<K, V> {
         this.k = k;
         this.v =v;
     }
+
+    public K getK(){
+        return this.k;
+    }
+
+    public void setK(K k){
+        this.k =k;
+    }
+
+    public V getV(){
+        return this.v;
+    }
+
+    public void setV(V v){
+        this.v =v;
+    }
 }
